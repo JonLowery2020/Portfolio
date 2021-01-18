@@ -1,5 +1,12 @@
 import React ,{Component} from 'react';
-import {Navbar, NavbarBrand, Nav, NavItem,NavLink, Jumbotron } from 'reactstrap';
+import {
+  Navbar,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  Jumbotron
+} from 'reactstrap';
 
 class Header extends Component {
 
@@ -14,16 +21,7 @@ class Header extends Component {
             </NavbarBrand>
             <Nav>
               <NavItem >
-                <NavLink className="nav-link">Home</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink className="nav-link">About</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink className="nav-link">Projects</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink className="nav-link">Contact</NavLink>
+                <NavLink className="nav-link">Placeholder</NavLink>
               </NavItem>
             </Nav>
           </div>
@@ -33,7 +31,7 @@ class Header extends Component {
             <div className="row row-header">
               <div className="col-12 col-sm-6">
                 <h2>Web Developer and a Gentleman</h2>
-                <p>I specialize in building UX friendly, responsive web applications using React. On the front-end I work with Javascript in combination with Bootstrap, Redux and jQuery. On the back-end I have knowledge of REST, Node.JS and MongoDB.</p>
+                <p>I specialize in building responsive web and native applications using React and React-Native. On the front-end I work with Javascript in combination with Bootstrap, Redux and jQuery. On the back-end I have knowledge of REST, Node.JS and MongoDB.</p>
               </div>
               <div className="col-12 col-sm-6">
                 <img src="Jon2.png" height="300" className="mx-auto d-block" alt="My Photo"/>
